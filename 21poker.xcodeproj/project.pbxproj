@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E954D17A29D80F8A00548465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954D17929D80F8A00548465 /* AppDelegate.swift */; };
 		E954D17C29D80F8A00548465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954D17B29D80F8A00548465 /* SceneDelegate.swift */; };
-		E954D17E29D80F8A00548465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954D17D29D80F8A00548465 /* ViewController.swift */; };
 		E954D18129D80F8A00548465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954D17F29D80F8A00548465 /* Main.storyboard */; };
 		E954D18329D80F8B00548465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E954D18229D80F8B00548465 /* Assets.xcassets */; };
 		E954D18629D80F8B00548465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954D18429D80F8B00548465 /* LaunchScreen.storyboard */; };
+		E954D19029D80FF000548465 /* PokerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954D18F29D80FF000548465 /* PokerViewController.swift */; };
+		E954D19229D8100400548465 /* Poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954D19129D8100400548465 /* Poker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E954D17629D80F8A00548465 /* 21poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 21poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E954D17929D80F8A00548465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E954D17B29D80F8A00548465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E954D17D29D80F8A00548465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E954D18029D80F8A00548465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E954D18229D80F8B00548465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E954D18529D80F8B00548465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E954D18729D80F8B00548465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E954D18F29D80FF000548465 /* PokerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerViewController.swift; sourceTree = "<group>"; };
+		E954D19129D8100400548465 /* Poker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				E954D17929D80F8A00548465 /* AppDelegate.swift */,
 				E954D17B29D80F8A00548465 /* SceneDelegate.swift */,
-				E954D17D29D80F8A00548465 /* ViewController.swift */,
 				E954D17F29D80F8A00548465 /* Main.storyboard */,
+				E954D19129D8100400548465 /* Poker.swift */,
+				E954D18F29D80FF000548465 /* PokerViewController.swift */,
 				E954D18229D80F8B00548465 /* Assets.xcassets */,
 				E954D18429D80F8B00548465 /* LaunchScreen.storyboard */,
 				E954D18729D80F8B00548465 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E954D17E29D80F8A00548465 /* ViewController.swift in Sources */,
 				E954D17A29D80F8A00548465 /* AppDelegate.swift in Sources */,
 				E954D17C29D80F8A00548465 /* SceneDelegate.swift in Sources */,
+				E954D19029D80FF000548465 /* PokerViewController.swift in Sources */,
+				E954D19229D8100400548465 /* Poker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
